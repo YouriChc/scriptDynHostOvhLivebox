@@ -17,11 +17,11 @@
 #
 # CHANGE: "HOST", "LOGIN" and "PASSWORD" to reflect YOUR account variables
 
-HOST="sous-domaine"
-LOGIN="identifiant"
-PASSWORD="mot de passe"
-LOG_PATH="chemin pour le stockage des fichiers de journalisation"
-LIVEBOX="adresse IP de la Livebox Play"
+HOST="sub-domain"
+LOGIN="sub-domain login"
+PASSWORD="sub-domain password"
+LOG_PATH="path for the log file"
+LIVEBOX="IP adress from your Livebox"
 
 echo ---------------------------------- >> $LOG_PATH/dynhost.log
 echo `date` >> $LOG_PATH/dynhost.log
